@@ -1,0 +1,13 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "d_trade"
+version = "0.1.0"
+description = "A simple project to help read stock information"
+authors = ["Dan Kimball"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+yfinance = "*"
